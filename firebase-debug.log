@@ -1,0 +1,86 @@
+[debug] [2023-02-06T06:29:23.613Z] ----------------------------------------------------------------------
+[debug] [2023-02-06T06:29:23.616Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-06T06:29:23.617Z] CLI Version:   11.22.0
+[debug] [2023-02-06T06:29:23.617Z] Platform:      win32
+[debug] [2023-02-06T06:29:23.617Z] Node Version:  v18.13.0
+[debug] [2023-02-06T06:29:23.618Z] Time:          Mon Feb 06 2023 11:59:23 GMT+0530 (India Standard Time)
+[debug] [2023-02-06T06:29:23.619Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-06T06:29:23.708Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-06T06:29:23.709Z] > authorizing via signed-in user (ffdarkrayon@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\website\react\yandexgoogleclone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-06T06:29:57.324Z] Using project from CLI flag: clone-fcfec
+[debug] [2023-02-06T06:29:57.328Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec [none]
+[debug] [2023-02-06T06:29:58.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec 403
+[debug] [2023-02-06T06:29:58.048Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-02-06T06:29:58.049Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-02-06T06:29:58.331Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-fcfec. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-02-06T06:30:34.968Z] ----------------------------------------------------------------------
+[debug] [2023-02-06T06:30:34.971Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-06T06:30:34.972Z] CLI Version:   11.22.0
+[debug] [2023-02-06T06:30:34.972Z] Platform:      win32
+[debug] [2023-02-06T06:30:34.972Z] Node Version:  v18.13.0
+[debug] [2023-02-06T06:30:34.973Z] Time:          Mon Feb 06 2023 12:00:34 GMT+0530 (India Standard Time)
+[debug] [2023-02-06T06:30:34.974Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-06T06:30:35.246Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-06T06:30:35.251Z] > authorizing via signed-in user (ffdarkrayon@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\website\react\yandexgoogleclone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-06T06:30:42.637Z] Using project from CLI flag: clone-fcfec
+[debug] [2023-02-06T06:30:42.641Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec [none]
+[debug] [2023-02-06T06:30:43.240Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec 403
+[debug] [2023-02-06T06:30:43.240Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fcfec {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-02-06T06:30:43.240Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-02-06T06:30:43.523Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ffdar\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-fcfec. Please make sure the project exists and your account has permission to access it.

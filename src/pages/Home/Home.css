@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+.home { 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(32 32 36),rgb(29, 29, 36));
+    
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgb(248, 248, 248);
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.home__header a:hover{
+    text-decoration: underline;
+}
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.home__headerRight > .MuiAvatar-root {
+    margin: 0 20px;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body > img {
+    object-fit: contain;
+    height: 86px;
+}
+.login{
+    min-width: 110px;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    transition: background-color 0.3s ease-out 0s;
+    height: 48px;
+}
+.about{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+    margin-bottom: 2rem;
+    color: rgb(248, 248, 248);
+    margin-top: 41px;
+}
+.name{
+    margin-right: 1rem;
+    min-width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 0px solid transparent;
+    background: linear-gradient(98.89deg, rgb(50, 50, 253) 0%, rgb(107, 176, 255) 100%);
+    transition: background-color 0.3s ease-out 0s;
+    height: 48px;
+}
+
+
+.circle_pattern {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    display: none;
+    border-radius: 44px;
+    background-color: rgb(60, 60, 62);
+    border: 1px solid rgba(22, 22, 117, 0.15);
+}
+.gradient__upper{
+    position: absolute;
+    width: -webkit-fill-available;
+    top: -20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+   .ABout_store{
+    display: none;
+   }
+   .circle_pattern{
+    display: inline-flex;
+   }
+    
+}
